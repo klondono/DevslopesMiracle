@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -110,12 +109,6 @@
                                 </constraints>
                                 <state key="normal" title="Choose Your State"/>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4CA-xO-h1Q">
-                                <rect key="frame" x="87" y="290.66666666666669" width="240" height="155"/>
-                            </stackView>
-                            <pickerView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LuH-nI-09c">
-                                <rect key="frame" x="10" y="453" width="374" height="140"/>
-                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -128,12 +121,9 @@
                             <constraint firstItem="rZx-41-cQv" firstAttribute="top" secondItem="2aZ-vd-3Ue" secondAttribute="bottom" constant="8" id="CmR-88-qF7"/>
                             <constraint firstItem="ddW-bX-F6V" firstAttribute="trailing" secondItem="sMT-9p-RIX" secondAttribute="trailing" id="E3y-Sc-jjw"/>
                             <constraint firstItem="2aZ-vd-3Ue" firstAttribute="top" secondItem="avh-Mb-IG8" secondAttribute="bottom" constant="8" id="FGg-S4-2Kd"/>
-                            <constraint firstItem="4CA-xO-h1Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HyF-oh-LBa"/>
                             <constraint firstItem="F6v-i3-faV" firstAttribute="leading" secondItem="UYz-4E-YIS" secondAttribute="leading" id="I9C-v3-DLN"/>
                             <constraint firstItem="sMT-9p-RIX" firstAttribute="centerX" secondItem="ZVN-la-Sbk" secondAttribute="centerX" id="Inw-dD-dr0"/>
                             <constraint firstItem="ddW-bX-F6V" firstAttribute="top" secondItem="sMT-9p-RIX" secondAttribute="bottom" constant="8" id="KhW-cv-0cy"/>
-                            <constraint firstItem="LuH-nI-09c" firstAttribute="top" secondItem="4CA-xO-h1Q" secondAttribute="bottom" constant="8" id="Kj5-A0-WOs"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="LuH-nI-09c" secondAttribute="trailing" constant="10" id="KuA-aL-el1"/>
                             <constraint firstAttribute="trailing" secondItem="sMT-9p-RIX" secondAttribute="trailing" constant="10" id="L5O-0x-f7a"/>
                             <constraint firstItem="rZx-41-cQv" firstAttribute="trailing" secondItem="2aZ-vd-3Ue" secondAttribute="trailing" id="LtF-2t-pOH"/>
                             <constraint firstItem="ddW-bX-F6V" firstAttribute="leading" secondItem="sMT-9p-RIX" secondAttribute="leading" id="Onz-lt-Xme"/>
@@ -148,14 +138,11 @@
                             <constraint firstItem="avh-Mb-IG8" firstAttribute="trailing" secondItem="ZGy-ah-cYZ" secondAttribute="trailing" id="b1J-mx-jsR"/>
                             <constraint firstItem="avh-Mb-IG8" firstAttribute="leading" secondItem="ZGy-ah-cYZ" secondAttribute="leading" id="bBe-aI-aK7"/>
                             <constraint firstItem="AzD-ID-RId" firstAttribute="top" secondItem="rZx-41-cQv" secondAttribute="bottom" constant="8" id="beO-We-ZSy"/>
-                            <constraint firstItem="LuH-nI-09c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="cNw-3n-UzU"/>
                             <constraint firstItem="2aZ-vd-3Ue" firstAttribute="trailing" secondItem="avh-Mb-IG8" secondAttribute="trailing" id="fTu-Po-lvz"/>
                             <constraint firstItem="HKb-NM-L9h" firstAttribute="top" secondItem="duk-fX-s7l" secondAttribute="bottom" constant="17" id="hUX-Oz-n4Z"/>
                             <constraint firstItem="ZVN-la-Sbk" firstAttribute="top" secondItem="HKb-NM-L9h" secondAttribute="bottom" constant="8" id="izx-vN-Ofh"/>
                             <constraint firstItem="F6v-i3-faV" firstAttribute="trailing" secondItem="UYz-4E-YIS" secondAttribute="trailing" id="owf-Ao-eKS"/>
                             <constraint firstItem="rZx-41-cQv" firstAttribute="leading" secondItem="2aZ-vd-3Ue" secondAttribute="leading" id="pta-Re-8wb"/>
-                            <constraint firstItem="4CA-xO-h1Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tvH-oz-lVE"/>
-                            <constraint firstItem="LuH-nI-09c" firstAttribute="leading" secondItem="AzD-ID-RId" secondAttribute="leading" id="vq7-UC-OZa"/>
                             <constraint firstItem="UYz-4E-YIS" firstAttribute="leading" secondItem="ddW-bX-F6V" secondAttribute="leading" id="x3Y-Nj-e7a"/>
                             <constraint firstItem="HKb-NM-L9h" firstAttribute="centerX" secondItem="duk-fX-s7l" secondAttribute="centerX" id="z1e-D8-4oV"/>
                         </constraints>
