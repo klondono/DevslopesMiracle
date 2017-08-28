@@ -108,7 +108,17 @@
                                     <constraint firstAttribute="height" constant="12" id="s5z-ms-hia"/>
                                 </constraints>
                                 <state key="normal" title="Choose Your State"/>
+                                <connections>
+                                    <action selector="stateBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wZ7-Dz-6hA"/>
+                                </connections>
                             </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnP-7T-kn3">
+                                <rect key="frame" x="87" y="450" width="240" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="155" id="dps-ev-zVN"/>
+                                    <constraint firstAttribute="width" constant="240" id="xsU-7x-hfK"/>
+                                </constraints>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -137,7 +147,9 @@
                             <constraint firstItem="duk-fX-s7l" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="age-m4-tyi"/>
                             <constraint firstItem="avh-Mb-IG8" firstAttribute="trailing" secondItem="ZGy-ah-cYZ" secondAttribute="trailing" id="b1J-mx-jsR"/>
                             <constraint firstItem="avh-Mb-IG8" firstAttribute="leading" secondItem="ZGy-ah-cYZ" secondAttribute="leading" id="bBe-aI-aK7"/>
+                            <constraint firstItem="vnP-7T-kn3" firstAttribute="top" secondItem="AzD-ID-RId" secondAttribute="bottom" constant="8" id="bKP-yM-XHT"/>
                             <constraint firstItem="AzD-ID-RId" firstAttribute="top" secondItem="rZx-41-cQv" secondAttribute="bottom" constant="8" id="beO-We-ZSy"/>
+                            <constraint firstItem="vnP-7T-kn3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eFb-Ml-HlN"/>
                             <constraint firstItem="2aZ-vd-3Ue" firstAttribute="trailing" secondItem="avh-Mb-IG8" secondAttribute="trailing" id="fTu-Po-lvz"/>
                             <constraint firstItem="HKb-NM-L9h" firstAttribute="top" secondItem="duk-fX-s7l" secondAttribute="bottom" constant="17" id="hUX-Oz-n4Z"/>
                             <constraint firstItem="ZVN-la-Sbk" firstAttribute="top" secondItem="HKb-NM-L9h" secondAttribute="bottom" constant="8" id="izx-vN-Ofh"/>
@@ -147,6 +159,10 @@
                             <constraint firstItem="HKb-NM-L9h" firstAttribute="centerX" secondItem="duk-fX-s7l" secondAttribute="centerX" id="z1e-D8-4oV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="statePicker" destination="vnP-7T-kn3" id="ubB-4G-Bsu"/>
+                        <outlet property="statePickerBtn" destination="AzD-ID-RId" id="e6U-gP-STm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
